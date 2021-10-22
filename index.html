@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <a href="about.html">About</a>
+
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        .all-browsers {
+            margin: 0;
+            padding: 5px;
+            background-color: DarkSalmon;
+        }
+
+        .all-browsers > h1, .browser {
+            margin: 10px;
+            padding: 5px;
+        }
+
+        .browser {
+            background: white;
+        }
+
+        .browser > h2, p {
+            margin: 4px;
+            font-size: 90%;
+        }
+
+        .container{
+            margin:0px;
+            width: 100vw;
+            height: 100vh;
+            font-family: Calibri;
+            font-size: 20px;
+            font-weight: bold;
+
+            display: grid;
+
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 75px 1fr 1fr 100px;
+            padding: 30px;
+            box-sizing: border-box;
+        }
+        .container div {
+            padding: 10px;
+            border: 1px solid black;
+        }
+        .header{
+            grid-column-start:1 ;
+            grid-column-end: 4;
+            font-size: 30px;
+            background-color: DarkSalmon;
+            font-size: 30px;
+
+        }
+
+        .content-large{
+            grid-column-start:1;
+            grid-column-end: 3;
+            grid-row-start: 2;
+            grid-row-end: 3;
+            background-color: DarkSalmon;
+            font-size: 20px;
+            background-image: url("background image.jpg");
+        }
+        .footer{
+            grid-column-start: 1;
+            grid-column-end: 5;
+            background-color:DarkSalmon;
+            font-size: 20px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        History Of the Internet
+    </div>
+    <div class="content-large">
+        <article class="browser">
+            The creation of the Internet
+        </article>
+        <article class="browser">
+        <ol><li>The Browser War</li>
+            <p>The World Wide Web spawned a lot of fortune for many businesses
+                investors. This reshaped how people worked , shopped, and even
+                traveled . John Hollowman, a journalist tells how the Internet era
+                evolved. More importantly he describes the browser wars.</p>
+            </article>
+        <article class="browser">
+            <li>Internet Search</li>
+            <p>While the browser wars were happening,and browsing the internet was
+                getting more and more accessible. It still lacked a directory or guide to
+                site. Search Engines were the answer, but how they came to be is
+                interesting. </p>
+            </article>
+            <article class="browser">
+                <li>Dot Com Bubbles</li>
+            <p>In the 1990s, there were 2 men who saw the Internet as a place of
+                business. Jeff Bezos, with his market analyses and research, wanted to
+                methodically create an online business. Pierre Omidyar, a humble
+                software engineer, thought it would be cool to create an online auction
+                site.</p>
+            </article>
+        </ol>
+    </div>
+    <div class="footer">  Author:Karthik Chandrashekar
+        <ul><ls><a href="https://mail.google.com/mail/u/1/#inbox">kc69@njit.edu</a></ls></ul></div>
+</div>
+</body>
+</html>
