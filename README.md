@@ -1,2 +1,2 @@
 # Web_Azure
-# This is a docker image which creates a container and launches webpage on Azure
+# https://karthik2.z13.web.core.windows.net/
